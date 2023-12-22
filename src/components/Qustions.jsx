@@ -8,15 +8,15 @@ const Qustions = () => {
             width:'90%',
             margin:'auto',
             borderRadius:'10px 10px 10px 10px',
-            border:'2px solid red',
-            paddingY:'20px'
+            paddingY:'20px',
+            bgcolor:'lightgray'
             }}>
             <Grid container direction='column' justifyContent='center' alignItems='center' paddingY={10} sx={{
                 borderRadius:'10px 10px 10px 10px',
-                border:'2px solid #b3b3ba',
                 width:'90%',
                 marginX:'auto',
-                marginY:'40px'
+                marginY:'40px',
+                bgcolor:'#fffbfa'
                 }}>
                 <Typography variant='h3' paddingY={2}>
                 FAQs Frequently Asked Questions!
@@ -29,18 +29,19 @@ const Qustions = () => {
             
             <Grid container direction='row' justifyContent='center' sx={{
                 borderRadius:'10px 10px 10px 10px',
-                border:'2px solid #b3b3ba',
                 width:'90%',
                 marginX:'auto',  
-                paddingY:'20px'
+                paddingY:'20px',
+                bgcolor:'#fffbfa'
             }}>
                 <Grid xs={6}>
                     <Typography sx={{width:'90%',
                     marginX:'auto',
                     paddingY:'10px',
                     textAlign:'center',
-                    border:'1px solid black',
-                    borderRadius:'10px 10px 10px 10px'
+                    border:'1px solid #b3b3ba',
+                    borderRadius:'10px 10px 10px 10px',
+                    color:'#b3b3ba'
                     }}>How easy is it to setup AITool?</Typography>
                 </Grid>
                 <Grid xs={6} >
@@ -48,8 +49,9 @@ const Qustions = () => {
                     marginX:'auto',
                     paddingY:'10px',
                     textAlign:'center',
-                    border:'1px solid black',
-                    borderRadius:'10px 10px 10px 10px'
+                    border:'1px solid #b3b3ba',
+                    borderRadius:'10px 10px 10px 10px',
+                    color:'#b3b3ba'
                     }}>
                     What your refund policy?
                     </Typography>
@@ -59,8 +61,9 @@ const Qustions = () => {
                     marginX:'auto',
                     paddingY:'10px',
                     textAlign:'center',
-                    border:'1px solid black',
-                    borderRadius:'10px 10px 10px 10px'
+                    border:'1px solid #b3b3ba',
+                    borderRadius:'10px 10px 10px 10px',
+                    color:'#b3b3ba'
                     }}>
                     Can I integrate AITool with other platforms?
                     </Typography>
@@ -70,8 +73,9 @@ const Qustions = () => {
                     marginX:'auto',
                     paddingY:'10px',
                     textAlign:'center',
-                    border:'1px solid black',
-                    borderRadius:'10px 10px 10px 10px'
+                    border:'1px solid #b3b3ba',
+                    borderRadius:'10px 10px 10px 10px',
+                    color:'#b3b3ba'
                     }}>
                     Do you have corporate plans?
                     </Typography>
@@ -81,8 +85,9 @@ const Qustions = () => {
                     marginX:'auto',
                     paddingY:'10px',
                     textAlign:'center',
-                    border:'1px solid black',
-                    borderRadius:'10px 10px 10px 10px'
+                    border:'1px solid #b3b3ba',
+                    borderRadius:'10px 10px 10px 10px',
+                    color:'#b3b3ba'
                     }}>
                         How often do you add new content?
                     </Typography>
@@ -91,10 +96,11 @@ const Qustions = () => {
                     <Grid sx={{
                     width:'90%',
                     marginX:'auto',
-                    border:'1px solid black',
                     borderRadius:'10px 10px 10px 10px',
                     justifyContent:'center',
-                    paddingX:'20px'
+                    paddingX:'20px',
+                    color:'#b3b3ba',
+                    border:'1px solid #b3b3ba'
                 }} >
                     <Typography sx={{textAlign:'center'}}>
                     Can I cancel my subscription at any time?
@@ -115,12 +121,14 @@ const Qustions = () => {
                 marginTop:'40px'
                 }}>
                 <Grid xs={8} container direction='column' justifyContent='' alignItems='center'>
-                    <Typography>Still Need Help ?</Typography>
-                    <Typography>Can't find the answer here?  Message us for help!</Typography>
+                    <Typography variant='h5' sx={{ color:'#fff'}}>Still Need Help ?</Typography>
+                    <Typography variant='body' sx={{ color:'#fff'}}>Can't find the answer here?  Message us for help!</Typography>
                 </Grid>
                 <Grid xs={4}>
-                    <Button variant='contained' sx={{
-                        borderRadius:'10px 40px 10px 40px'
+                    <Button variant='contained' size='large' sx={{
+                        borderRadius:'10px 40px 10px 40px',
+                        bgcolor:'#fc552f',
+                        border:'1px solid #ffffff'
                     }}> Shoot Us A Messege</Button>
                 </Grid>
             </Grid>
