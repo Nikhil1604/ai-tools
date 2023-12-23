@@ -9,7 +9,7 @@ const Qustions = () => {
             margin:'auto',
             borderRadius:'10px 10px 10px 10px',
             paddingY:'20px',
-            bgcolor:'lightgray'
+            bgcolor:'#fff7f7'
             }}>
             <Grid container direction='column' justifyContent='center' alignItems='center' paddingY={10} sx={{
                 borderRadius:'10px 10px 10px 10px',
